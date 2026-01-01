@@ -3,34 +3,56 @@
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 
-Official implementation of the paper **"DisenKT: A Variational Attention-Based Approach for Disentangled Cross-Domain Knowledge Tracing"**
+Official project page for the paper  
+**"DisenKT: A Variational Attention-Based Approach for Disentangled Cross-Domain Knowledge Tracing"**
+
+---
 
 ## Overview
 
-DisenKT is a novel framework for cross-domain knowledge tracing that:
-- Disentangles student knowledge states into domain-shared and domain-exclusive components
-- Uses Variational Attention Autoencoders (VAAE) for effective sequence modeling
-- Reduces negative transfer through mutual information minimization
-- Outperforms existing approaches in both course-level and student-level CDKT scenarios
+DisenKT is a variational attention-based framework for cross-domain knowledge tracing that explicitly disentangles student knowledge states into **domain-shared** and **domain-exclusive** representations.
+
+By leveraging a Variational Attention Autoencoder (VAAE) architecture and mutual information minimization, DisenKT enables selective knowledge transfer across domains while effectively reducing negative transfer.
+
+Experimental results demonstrate that DisenKT consistently outperforms existing knowledge tracing and cross-domain KT approaches in both **course-level** and **student-level** CDKT scenarios.
+
+---
 
 ## Key Features
 
-- **Disentangled Knowledge Tracing**: Improves cross-domain KT accuracy and interpretability via explicit disentanglement of domain-shared and domain-exclusive knowledge components
-- **Variational Attention Autoencoder (VAAE)**: Novel architecture that fuses hierarchical attention mechanisms with variational autoencoders for enhanced sequence modeling
-- **Negative Transfer Reduction**: Advanced mutual information minimization technique enables precise knowledge transfer while reducing harmful negative transfer
-- **Consistent Performance Gains**: Outperforms existing approaches across multiple CDKT scenarios, with average improvements of 3.09% AUC in course-level tasks
-- **Multi-Domain Support**: Flexible framework designed for complex educational settings with multiple source and target domains
+- **Disentangled Knowledge Tracing**  
+  Explicit modeling of domain-shared and domain-exclusive knowledge states improves both prediction accuracy and interpretability.
 
-## Installation
+- **Variational Attention Autoencoder (VAAE)**  
+  A novel sequence modeling architecture that integrates hierarchical self-attention with variational inference.
 
-```bash
-git clone https://github.com/zenmezhemecaia/DisenKT.git
-cd DisenKT
-pip install -r requirements.txt
-```
-## Usage
-```bash
-Run the following command to start training the model:
+- **Negative Transfer Mitigation**  
+  Mutual information minimization is employed to promote independence between disentangled latent representations and reduce harmful transfer.
 
-python main.py
-```
+- **Consistent Performance Gains**  
+  Achieves stable improvements across multiple cross-domain knowledge tracing benchmarks.
+
+- **Multi-Domain Applicability**  
+  Designed to support complex educational settings involving multiple source and target domains.
+
+---
+
+## Code Availability
+
+The source code of this project is currently **not publicly released**.
+
+Due to ongoing extensions and further investigation of the proposed method,
+as well as potential intellectual property considerations,
+the code is available **upon reasonable request** for **academic research purposes only**.
+
+If you are interested, please contact the authors via email and include:
+- Your name and affiliation
+- A brief description of your research purpose
+
+📧 Contact: liuyuqi@m.scnu.edu.cn
+
+---
+
+## Citation
+
+If you find this work useful in your research, please consider citing our paper.
