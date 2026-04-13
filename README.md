@@ -3,8 +3,17 @@
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 
-Official project page for the paper  
-**"DisenKT: A Variational Attention-Based Approach for Disentangled Cross-Domain Knowledge Tracing"**
+## 📄 Paper
+
+**DisenKT: A Variational Attention-Based Approach for Disentangled Cross-Domain Knowledge Tracing**  
+*Information Processing & Management (Elsevier), 2026*
+
+- 🔗 DOI: https://doi.org/10.1016/j.ipm.2025.104582  
+- 🔗 ScienceDirect: https://www.sciencedirect.com/science/article/abs/pii/S0306457325005230  
+
+---
+
+Official project page for the paper.
 
 ---
 
@@ -55,4 +64,17 @@ If you are interested, please contact the authors via email and include:
 
 ## Citation
 
-If you find this work useful in your research, please consider citing our paper.
+If you find this work useful in your research, please consider citing:
+
+```bibtex
+@article{disenkt2026,
+  title={DisenKT: A Variational Attention-Based Approach for Disentangled Cross-Domain Knowledge Tracing},
+  author={Yuqi Liu et al.},
+  journal={Information Processing \& Management},
+  volume={63},
+  number={3},
+  pages={104582},
+  year={2026},
+  publisher={Elsevier}
+}
+```
